@@ -1,0 +1,140 @@
+
+header {
+    /* border: 2px solid red; */
+    width: 100.9%;
+    padding: 15px 15px 0 15px;
+  }
+  
+  header::after{
+      content: '';
+      display: block;
+      clear: both;
+  }
+  
+  .left {
+    margin: 20px;
+    padding: 10px;
+    float: left;
+  }
+  .left a{
+    font-size: 15px;
+    color: #5F6368;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .right {
+    float: right;^
+  }
+  .right a{
+    font-size: 15px;
+    color: #5F6368;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  #app{
+    opacity: 0.5;
+    vertical-align: middle;
+  }
+  #app:hover{
+    opacity: 1;
+  }
+  .btn{
+    background-color: #4285F4;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+ 
+  
+  .search{
+    
+      border: 1px solid black;
+      width: 500px;
+      margin: auto;
+      border-radius: 10px;
+      position: relative;
+      height: 35px;
+  }
+  
+  .mg{
+      position: absolute;
+      top: 5px;
+      left: 5px;
+  }
+  
+  .mi{
+      position: absolute;
+      right: 5px;
+      top: 5px;
+  }
+  
+  input{
+      margin-left: 50px;
+      width: 400px;
+      margin-top: 5px;
+      border: none;
+      outline: none;
+      font-size: 1.3rem;
+  }
+  
+  .google{
+    
+      text-align: center;
+      margin-top: 100px;
+  }
+  .language{
+    text-align: center;
+  }
+
+  .btn1{
+   text-align: center;
+  }
+  .button-box{
+    margin-top: 30px;
+    margin-right: 10px;
+    color: gray;
+    width: 120px;
+    height: 25px;
+  }
+  .canada{
+    font-size: 15px;
+    margin-left: 15px;
+    color: #5F6368;
+    position: fixed;
+    bottom:30px;
+  }
+   
+  .footer-left{
+    float: left;
+    position: fixed;
+    bottom: 0;
+    text-decoration: none;
+    width: 50%;
+    color: #5F6368;
+    margin: 0 10px;
+  }
+
+  .footer-left a, .footer-right a  {
+    text-decoration: unset;
+    color: #5F6368;
+    margin: 0 5px;
+}
+
+  .footer-right{
+    float: right;
+    bottom: 0;
+    position: fixed; 
+    text-align: right;
+    left:85%;
+    width: 46%;
+    width:fit-content;
+    text-decoration: none;
+    color: #5F6368;
+    margin: 0 10px;
+  }
+  
